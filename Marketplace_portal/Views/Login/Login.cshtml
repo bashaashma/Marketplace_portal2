@@ -39,7 +39,7 @@
                 <div class="inputUser">
                     <i class="fa fa-user icon"></i>
                     @Html.TextBoxFor(m => m.UserName, new { placeholder = "Username or Email" })
-                    <br />
+                    <br>
                     @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
                 </div>
 
@@ -47,7 +47,7 @@
                 <div class="inputPassword">
                     <i class="fa fa-lock icon"></i>
                     @Html.PasswordFor(m => m.Password, new { placeholder = "Password" })
-                    <br />
+                    <br>
                     @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
 
                 </div>

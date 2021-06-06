@@ -74,7 +74,7 @@
                 @Html.LabelFor(model => model.UserEmail, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.TextBoxFor(model => model.UserEmail, new { placeholder = "Email ID" })
-                    <br />
+                    <br>
                     @Html.ValidationMessageFor(model => model.UserEmail, "", new { @class = "text-danger" })
                 </div>
             </div>
@@ -84,7 +84,7 @@
                 @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.PasswordFor(model => model.Password, new { placeholder = "Password" })
-                    <br />
+                    <br>
                     @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
                 </div>
             </div>
@@ -94,7 +94,7 @@
                 @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
                     @Html.PasswordFor(model => model.ConfirmPassword, new { placeholder = "Password" })
-                    <br />
+                    <br>
                     @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
                 </div>
             </div>
